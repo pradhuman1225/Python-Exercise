@@ -1,0 +1,18 @@
+# Python-Exercise
+Python Learner
+# input= integer n
+# Bollean = True and false.
+
+print("print Pettern")
+num1= int(input("Enter the number :"))
+print("Enter 1 or 0")
+pd_op= input("1 for true value, 0 for the false value")
+
+if pd_op=="1":
+    for i in range (0,num1+1):
+        print("*"*i)
+
+elif pd_op=="0":
+    for i in range(num1,0,-1):
+        print("*"*i)
+        

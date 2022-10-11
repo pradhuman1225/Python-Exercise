@@ -1,0 +1,37 @@
+# craete a faulty calculator.
+
+print("Enter the 1st number")
+num1=int(input())
+print("Enter the 2nd number")
+num2=int(input())
+print('so what do you want? +,-,%,*')
+num3=input()
+
+if num1==45 and num2==3 and num3== '*':
+    print("555")
+elif num1==56 and num2==6 and num3=='+':
+    print("77")
+elif num1==56 and num2==6 and num3=='/':
+    print("67") 
+elif num1==56 and num2==6 and num3=='%':
+    print("4")
+
+elif num3=='+':
+    n1=num1+num2
+    print(n1)
+elif num3=='-':
+    n2=num1-num2
+    print(n2)
+elif num3=='*':
+    n3=num1*num2
+    print(n3)
+elif num3=='/':
+    n4=num1/num2
+    print(n4)
+
+else:
+    print("Error! please check your input")
+
+
+# craete a faulty calculator.
+
